@@ -1,0 +1,15 @@
+[project]
+name = "mynext-e2e-test-suite"
+version = "1.0.0"
+description = "E2E test suite repository for evaluator-worker testing"
+requires-python = ">=3.12"
+
+[project.optional-dependencies]
+test = [
+    "pytest>=7.4.0",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
